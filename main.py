@@ -117,7 +117,7 @@ buttonframe = tk.Frame(window)
 buttonframe.columnconfigure((0,1), weight=1)
 buttonframe.pack(fill='x', padx=10, pady=1)
 
-# Result Display Area (Added at bottom)
+# Result Display Area 
 result_frame = tk.Frame(window)
 result_frame.pack(padx=20, pady=10, fill='both', expand=True)
 
